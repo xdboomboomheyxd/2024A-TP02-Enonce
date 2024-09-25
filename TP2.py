@@ -11,8 +11,9 @@ Noms et matricules : Nom1 (Matricule1), Nom2 (Matricule2)
 ########################################################################################################## 
 
 # TODO : Écrire votre code ici
-a= 'marche'
-print(a)
+import csv
+bibliotheque = {cote_rangement:titre}
+print(f' \n Bibliotheque initiale : {bibliotheque} \n')
 
 
 
