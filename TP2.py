@@ -1,8 +1,8 @@
 """
 TP2 : Système de gestion de livres pour une bibliothèque
 
-Groupe de laboratoire : XX
-Numéro d'équipe :  YY
+Groupe de laboratoire : 02
+Numéro d'équipe :  10
 Noms et matricules : Nom1 (Matricule1), Nom2 (Matricule2)
 """
 
@@ -11,7 +11,8 @@ Noms et matricules : Nom1 (Matricule1), Nom2 (Matricule2)
 ########################################################################################################## 
 
 # TODO : Écrire votre code ici
-
+a= 'marche'
+print(a)
 
 
 
