@@ -12,11 +12,20 @@ Noms et matricules : Nom1 (Matricule1), Nom2 (Matricule2)
 
 # TODO : Écrire votre code ici
 import csv
-bibliotheque = {cote_rangement:titre}
+
+
+
+csvfile = open('collection_bibliotheque.csv')
+dictionnaire = csv.reader(csvfile)
+
+bibliotheque={}
+
+for row in dictionnaire:
+    bibliotheque[row[3]]=(row[0],row[1],row[2])
+del bibliotheque['cote_rangement']
+csvfile.close()
+
 print(f' \n Bibliotheque initiale : {bibliotheque} \n')
-
-
-
 
 
 ########################################################################################################## 
